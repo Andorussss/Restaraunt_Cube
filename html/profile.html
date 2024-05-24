@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+    <script src="../js/calculator.js" defer></script>
+    <script src="../js/profile.js"defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">CUBE</h1>
+        <img src="../img/renderdirtblock1.png" width="100px" height="100px">
+        <nav>
+          <a href="../html/Menu_with_prof.html">Breakfast</a>
+          <a href="../html/Menu_with_prof.html">Lunch</a>
+          <a href="../html/Menu_with_prof.html">Dinner</a>
+          <a href="../html/about_us.html" id="about_us">About us</a>
+          <p>
+              <a href="../html/basket_with_prof.html">
+                  <img class="basket" src="../img/free-icon-shopping-basket-1077979.png" width="50" 
+              height="50" alt="Пример">
+              </a>
+          </p>
+      </nav>
+    </header>
+
+  <div id="Profile">
+    <div class="container">
+      <div class="profile-settings">
+        <div class="avatar">
+          <img src="https://i.pinimg.com/originals/b2/20/5c/b2205ce67c7f32f6c2051ad0df2419a0.png" alt="" class="profile-img">
+          <h3 class="profile-name">Guest</h1>
+        </div>
+        <div class="settings">
+          <ul class="settings-list">
+            <li class="list-item" id="prof">Profile</li>
+            <li class="list-item" id="ord">Orders</li>
+            <li class="list-item" id="calc">Calculator</li>
+            <li class="list-item" id="surv">Survey</li>
+          </ul>
+          <button class="logout">Logout</button>
+        </div>
+        
+      </div>
+      <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+          <button onclick="clearDisplay()">C</button>
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button onclick="appendToDisplay('+')">+</button>
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button onclick="appendToDisplay('-')">-</button>
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button onclick="appendToDisplay('*')">*</button>
+          <button onclick="appendToDisplay('0')">0</button>
+          <button onclick="calculateResult()">=</button>
+          <button onclick="appendToDisplay('/')">/</button>
+        </div>
+      </div>
+      <div class="orders">
+        <div class="imgs">
+
+        </div>
+      </div>
+      <form class="Survey">
+        <div>
+          <h2 class="question">Question 1: What is your favorite color?</h2>
+          <label>
+            <input type="radio" name="q1" value="Red"> Red
+          </label>
+          <label>
+            <input type="radio" name="q1" value="Blue"> Blue
+          </label>
+          <label>
+            <input type="radio" name="q1" value="Green"> Green
+          </label>
+          <label>
+            <input type="radio" name="q1" value="Yellow"> Yellow
+          </label>
+      
+          <h2 class="question">Question 2: What is your favorite animal?</h2>
+          <label>
+            <input type="radio" name="q2" value="Dog"> Dog
+          </label>
+          <label>
+            <input type="radio" name="q2" value="Cat"> Cat
+          </label>
+          <label>
+            <input type="radio" name="q2" value="Bird"> Bird
+          </label>
+          <label>
+            <input type="radio" name="q2" value="Fish"> Fish
+          </label>
+        </div>
+        <button type="button" class="color-change-button">Submit</button>
+      </form>
+      <form  class="profile-form">
+        <div class="profile-inputs">
+          <label type="fname" for="fname">First Name</label>
+          <input type="text" placeholder="First Name" id="fname">
+          <label type="lname" for="lname">Last Name</label>
+          <input type="text" placeholder="Last Name" id="lname">
+          <button class="Save">Save</button>
+        </div>
+        <label type="login" for="lname">Display Name</label>
+        <input type="login" placeholder="User">
+     </form>
+    </div>
+  </div>
+    
+    
+    
+
+   
+</body>
+</html>

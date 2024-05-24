@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'VT323',monospace;
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c934655-0e08-4452-a7a6-cb362f27ef9a/d7h1mti-a5e34bc1-e02e-495b-bbba-a2b62b572024.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVjOTM0NjU1LTBlMDgtNDQ1Mi1hN2E2LWNiMzYyZjI3ZWY5YVwvZDdoMW10aS1hNWUzNGJjMS1lMDJlLTQ5NWItYmJiYS1hMmI2MmI1NzIwMjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UQlXjQ1lvhW_nI5P6Kk-2Y2dT2KEAEclbTKkedjSgHQ");
+    
+    
+}
+#registration{
+    margin:0 auto;
+    margin-top:32px;
+    width:450px;
+    height:500px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px darkorange;
+}
+#registration .title{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 5px solid gold;
+    color:white;
+}
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    padding-left: 10px;
+    font-size:2rem;
+    color:white;
+}
+input{
+    margin:10px;
+    height: 40px;
+    width: 95%;
+    border-radius:20px;
+    border:none;
+    box-shadow: 2px 2px 5px darkorange;
+    background-color:snow;
+    padding: 15px;
+}
+button{
+    font-family:'VT323',monospace; 
+    border-radius: 20px;
+    font-size:2rem;
+    color:white;
+    background-color:orange;
+    border: 3px solid white;
+    box-shadow: 2px 5px 15px darkorange;
+    width: 200px;
+    margin-bottom: 40px;
+}
+button:hover{
+    background-color:orangered;
+}
+
+input[type=email]:focus {
+    background-color: lightgoldenrodyellow;
+    margin-left:15px;
+    border: none;
+}
+input[type=password]:focus {
+    background-color: lightgoldenrodyellow;
+    margin-left:15px;
+    border: none;
+}
+
+
+#email{
+    padding-left: 173px;
+}
+#password{
+    padding-left: 153px;
+}
+a{
+    color:white;
+    font-size: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+a:hover{
+    color:indianred;
+}

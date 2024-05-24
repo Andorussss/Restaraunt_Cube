@@ -1,0 +1,167 @@
+
+body{
+    margin: 0;
+    font-family: 'VT323',monospace;
+    background-image:url("https://vkplay.ru/hotbox/content_files/game/2019/10/23/695c12fbd5fc4708a5f473c6e7fd3140.jpg")
+}
+header {
+    background-color: #6BBE49;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    -webkit-filter: drop-shadow(3px 5px 5px #000);
+  filter: drop-shadow(3px 5px 5px lightgreen);
+    
+}
+header img{
+   -webkit-filter: drop-shadow(3px 5px 5px #000);
+  filter: drop-shadow(3px 5px 5px lime);
+}
+h2{
+    color:#ebff00;
+    font-size: 40px;
+}
+header h1{
+    color:darkgreen;
+}
+nav {
+    text-align: center;
+    background-color: #6BBE49;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;	
+}
+nav a {
+    color:lightgreen;
+    margin: 0 20px;
+    font-weight:bold;
+    font-size: 30px;
+    text-decoration: none;
+} 
+nav a:hover {
+    color:darkgreen;
+} 
+#bag{
+    margin-left: 37.8%;
+    margin-top: 1%;
+}
+.dish img{
+    width: 280px;
+    height: 280px;
+    margin-bottom:25px;
+}
+.dish img:hover{
+    transform: translateY(5px);
+}
+.dish-name{
+    color:white;
+    font-size:35px;
+    margin: 0;
+   
+}
+.dish-description{
+    font-size:20px;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius:15px;
+}
+
+#breakfast{
+    background-color: #d9d96b;
+}
+#lunch{
+    background-color:orange;
+}
+#dinner{
+    background-color:royalblue;
+}
+#breakfast h2{
+    color:#ffe400;
+}
+#breakfast .dish img{
+    box-shadow: 0px 0px 21px #7b8d14cc;
+    border-radius: 110px;
+    background-color: #37abec6e;
+}
+#breakfast .dish .money{
+    width: 50px;
+    height: 50px;
+    background-color:#d9d96b;
+    box-shadow: 0px 0px 0px;
+    margin:0;
+    margin-bottom: -15px;
+    margin-left:-5px;
+}
+#lunch .dish img{
+    box-shadow: 0px 0px 21px #7b8d14cc;
+    border-radius: 110px;
+    background-color: #bbd9eb6e;
+}
+#lunch .dish .money{
+    width: 50px;
+    height: 50px;
+    background-color:orange;
+    box-shadow: 0px 0px 0px;
+    margin:0;
+    margin-bottom: -15px;
+    margin-left:-5px;
+}
+#dinner .dish img{
+    box-shadow: 0px 0px 21px darkblue;
+    border-radius: 110px;
+    background-color: #72d3e7;
+}
+#dinner .dish .money{
+    width: 50px;
+    height: 50px;
+    background-color:royalblue;
+    box-shadow: 0px 0px 0px;
+    margin:0;
+    margin-bottom: -15px;
+    margin-left:-5px;
+}
+#dinner .dish-description{
+    color:white;
+}
+.order{
+    font-family:'VT323',monospace;
+    margin-left: 1%;
+    border-radius: 20px;
+    width:200px;
+    height: 50px;
+    font-size:30px;
+    
+}
+.bf{
+    background-color: #d9d96b;
+    color:#ffe400;
+    border: 2p solid #a7ae5c;
+    box-shadow: 2px 2px 15px #959b4f;
+}
+.lh{
+    background-color: orange;
+    color:#ffe400;
+    box-shadow: 2px 2px 15px rgb(201, 134, 11);
+}
+.di{
+    background-color: royalblue;
+    border: 2px solid rgb(50, 81, 175);
+    box-shadow: 2px 2px 15px rgb(45, 73, 157);
+    color:snow
+}
+.bf:hover{
+    background-color:rgba(255, 255, 0, 0.763);
+}
+.lh:hover{
+    background-color:orangered
+}
+.di:hover{
+    background-color:#51b5c9
+}
+.basket:hover{
+    transform: translateY(5px);
+}

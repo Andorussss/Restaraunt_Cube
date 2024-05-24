@@ -1,0 +1,100 @@
+
+body{
+    margin: 0;
+    font-family: 'VT323',monospace;
+    background-image:url("https://vkplay.ru/hotbox/content_files/game/2019/10/23/695c12fbd5fc4708a5f473c6e7fd3140.jpg")
+}
+header {
+    background-color: #6BBE49;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    -webkit-filter: drop-shadow(3px 5px 5px #000);
+  filter: drop-shadow(3px 5px 5px lightgreen);
+    
+}
+header img{
+   -webkit-filter: drop-shadow(3px 5px 5px #000);
+  filter: drop-shadow(3px 5px 5px lime);
+}
+h2{
+    color:#ebff00;
+    font-size: 40px;
+}
+header h1{
+    color:darkgreen;
+}
+nav {
+    text-align: center;
+    background-color: #6BBE49;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;	
+}
+nav a {
+    color:lightgreen;
+    margin: 0 20px;
+    font-weight:bold;
+    font-size: 30px;
+    text-decoration: none;
+} 
+nav a:hover {
+    color:darkgreen;
+} 
+#bag{
+    margin-left: 37.8%;
+    margin-top: 1%;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius:15px;
+    background-color: #6BBE49;
+}
+.title{
+    text-align: center;
+    text-shadow: seagreen 10px 0px 0px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    margin-left: 36px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #82db5e;
+    box-shadow: 10px 0px 0px seagreen;
+}
+.group{
+    padding-bottom: 20px;
+    text-align: center;
+}
+#basket{
+    text-align: center;
+    text-shadow: seagreen 10px 0px 0px;
+    margin-bottom: 50px;
+}
+.order{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    font-size: 30px;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px/20px;
+    font-family: 'VT323',monospace;
+    box-shadow: 10px 0px 0px seagreen;
+    background-color:#6BBE49 ;
+    border:2px solid green;
+    color:#ebff00;
+}
+button:hover{
+    background-color: rgb(30, 159, 30);
+    transform:translateY(-5px);
+}
+.image:hover{
+    transform: translateY(10px);
+}
